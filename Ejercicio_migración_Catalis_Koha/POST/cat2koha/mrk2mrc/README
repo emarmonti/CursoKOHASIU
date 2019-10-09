@@ -1,0 +1,15 @@
+This is a Python class for parsing and producing MARC data.  It reads and
+writes both MARC21 format records and records in a mnemonic format very
+similar to that used by Terry Reese's MarcEdit.  It hasn't seen a bunch
+of testing, but I've used it in some conversion work.
+
+MarcMaker.py and MarcBreaker.py are sample scripts that read the
+mnemonic format on standard input and write MARC format on standard
+output (vice-versa for MarcBreaker).  They're pretty rough, but they
+should give you an idea of how to use the parsers.
+
+Any feedback is appreciated!
+
+Micah Stetson
+micah@stetsonnet.org
+April 10, 2005
