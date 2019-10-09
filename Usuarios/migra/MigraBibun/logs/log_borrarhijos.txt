@@ -1,0 +1,68 @@
+Abriendo archivo base/bibun.txt
+archivo abierto correctamente
+Lineas leidas 14349
+registros cargados 407
+--registros madre    348
+--registros hijo     59
+INICIANDO VINCULACIÓN DE MADRES A HIJOS
+madre id!ID 016473 tiene hijo inv:00002653 no unificado, Buscando hijo->reg Hijo !ID 016474 incorporado a Madre !ID 016473:^z00016474^a00002653^p20^dPRES
+madre id!ID 016485 tiene hijo inv:00018114 no unificado, Buscando hijo->reg Hijo !ID 016486 incorporado a Madre !ID 016485:^z00016486^a00018114^vEj. 2^p165^mCompra Cuspide /2012^dPRES
+madre id!ID 016485 tiene hijo inv:00018113 no unificado, Buscando hijo->reg Hijo !ID 016487 incorporado a Madre !ID 016485:^z00016487^a00018113^p165^mCompra Cuspide /2012^dPRES
+madre id!ID 016529 tiene hijo inv:00018141 no unificado, Buscando hijo->reg Hijo !ID 016530 incorporado a Madre !ID 016529:^z00016530^a00018141^p20^m^xnú^dPRES
+madre id!ID 016537 tiene hijo inv:00008681 no unificado, Buscando hijo->reg Hijo !ID 016538 incorporado a Madre !ID 016537:^z00016538^a00008681^p10^m^xnú^dPRES
+madre id!ID 016588 tiene hijo inv:00018184 no unificado, Buscando hijo->reg Hijo !ID 016589 incorporado a Madre !ID 016588:^z00016589^a00018184^p50^mCompra Agrimensura, Geodesia, Ing. Llorens, 2-1-10^dEj. disp. Agrimensura, Geodesia, Ing. Llorens, 2-1-10
+madre id!ID 016644 tiene hijo inv:00007729 no unificado, Buscando hijo->reg Hijo !ID 016646 incorporado a Madre !ID 016644:^z00016646^a00007729^p80^mDonación Indialantic Rotary, Florida U.S.A.^dPRES
+madre id!ID 016681 tiene hijo inv:00018241 no unificado, Buscando hijo->reg Hijo !ID 016682 incorporado a Madre !ID 016681:^z00016682^a00018241^vEj. 2^p20^dPRES
+madre id!ID 016753 tiene hijo inv:00003174 no unificado, Buscando hijo->reg Hijo !ID 016754 incorporado a Madre !ID 016753:^z00016754^a00003174^p20^m^xnú^dPRES
+madre id!ID 016759 tiene hijo inv:00007291 no unificado, Buscando hijo->reg Hijo !ID 016760 incorporado a Madre !ID 016759:^z00016760^a00007291^p70^mDonación Indialantic Rotary Club U.S.A.^dPRES
+madre id!ID 016794 tiene hijo inv:00018544 no unificado, Buscando hijo->reg Hijo !ID 016795 incorporado a Madre !ID 016794:^z00016795^a00018544^p546,90^mCompra SBS /2013^dPRES
+madre id!ID 016801 tiene hijo inv:00018548 no unificado, Buscando hijo->reg Hijo !ID 016802 incorporado a Madre !ID 016801:^z00016802^a00018548^p436,90^mCompra SBS /2013^dPRES
+madre id!ID 016803 tiene hijo inv:00018550 no unificado, Buscando hijo->reg Hijo !ID 016804 incorporado a Madre !ID 016803:^z00016804^a00018550^p855,90^mCompra SBS /2013^dPRES
+madre id!ID 016832 tiene hijo inv:00018579 no unificado, Buscando hijo->reg Hijo !ID 016833 incorporado a Madre !ID 016832:^z00016833^a00018579^p1014,40^mCompra SBS /2013^dPRES
+madre id!ID 016837 tiene hijo inv:00018585 no unificado, Buscando hijo->reg Hijo !ID 016838 incorporado a Madre !ID 016837:^z00016838^a00018585^vEj. 2^p314,80^mCompra SBS /2013^dPRES
+madre id!ID 016837 tiene hijo inv:00018584 no unificado, Buscando hijo->reg Hijo !ID 016839 incorporado a Madre !ID 016837:^z00016839^a00018584^p314,80^mCompra SBS /2013^dPRES
+madre id!ID 016840 tiene hijo inv:00018588 no unificado, Buscando hijo->reg Hijo !ID 016841 incorporado a Madre !ID 016840:^z00016841^a00018588^vEj. 2^p235^mCompra Quade /2013^dPRES
+madre id!ID 016840 tiene hijo inv:00018587 no unificado, Buscando hijo->reg Hijo !ID 016842 incorporado a Madre !ID 016840:^z00016842^a00018587^p235^mCompra Quade /2013^dPRES
+madre id!ID 016846 tiene hijo inv:00018593 no unificado, Buscando hijo->reg Hijo !ID 016847 incorporado a Madre !ID 016846:^z00016847^a00018593^vEj. 2^p269^mCompra Quade /2013^dPRES
+madre id!ID 016846 tiene hijo inv:00018592 no unificado, Buscando hijo->reg Hijo !ID 016848 incorporado a Madre !ID 016846:^z00016848^a00018592^mCompra Quade /2013^dPRES
+madre id!ID 016849 tiene hijo inv:00018596 no unificado, Buscando hijo->reg Hijo !ID 016850 incorporado a Madre !ID 016849:^z00016850^a00018596^vEj.2^p266^mCompra Quade /2013^dPRES
+madre id!ID 016849 tiene hijo inv:00018595 no unificado, Buscando hijo->reg Hijo !ID 016851 incorporado a Madre !ID 016849:^z00016851^a00018595^p266^mCompra  Quade /2013^dPRES
+madre id!ID 016854 tiene hijo inv:00018599 no unificado, Buscando hijo->reg Hijo !ID 016855 incorporado a Madre !ID 016854:^z00016855^a00018599^p490^mCompra SBS /2013^dPRES
+madre id!ID 016865 tiene hijo inv:00018611 no unificado, Buscando hijo->reg Hijo !ID 016866 incorporado a Madre !ID 016865:^z00016866^a00018611^vEj. 2^p220^mCompra Quade /2013^dPRES
+madre id!ID 016865 tiene hijo inv:00018610 no unificado, Buscando hijo->reg Hijo !ID 016867 incorporado a Madre !ID 016865:^z00016867^a00018610^p220^mCompra Quade /2013^dPRES
+madre id!ID 016868 tiene hijo inv:00018613 no unificado, Buscando hijo->reg Hijo !ID 016869 incorporado a Madre !ID 016868:^z00016869^a00018613^p255^mCompra Quade /2013^dPRES
+madre id!ID 016870 tiene hijo inv:00018616 no unificado, Buscando hijo->reg Hijo !ID 016871 incorporado a Madre !ID 016870:^z00016871^a00018616^vEj. 2^p224^mCompra  Quade /2013^dPRES
+madre id!ID 016870 tiene hijo inv:00018615 no unificado, Buscando hijo->reg Hijo !ID 016872 incorporado a Madre !ID 016870:^z00016872^a00018615^p224^mCompra Quade /2013^dPRES
+madre id!ID 016873 tiene hijo inv:00018619 no unificado, Buscando hijo->reg Hijo !ID 016874 incorporado a Madre !ID 016873:^z00016874^a00018619^vEj. 2^p220^mCompra Quade /2013^dPRES
+madre id!ID 016873 tiene hijo inv:00018618 no unificado, Buscando hijo->reg Hijo !ID 016875 incorporado a Madre !ID 016873:^z00016875^a00018618^p220^mCompra Quade /2013^dPRES
+madre id!ID 016878 tiene hijo inv:00018625 no unificado, Buscando hijo->reg Hijo !ID 016880 incorporado a Madre !ID 016878:^z00016880^a00018625^vEj. 2^p163^mCompra Quade/ 2013^dPRES
+madre id!ID 016878 tiene hijo inv:00018624 no unificado, Buscando hijo->reg Hijo !ID 016881 incorporado a Madre !ID 016878:^z00016881^a00018624^p163^mCompra Quade/ 2013^dPRES
+madre id!ID 016885 tiene hijo inv:00018631 no unificado, Buscando hijo->reg Hijo !ID 016886 incorporado a Madre !ID 016885:^z00016886^a00018631^vEj. 2^p308^mCompra Quade /2013^dPRES
+madre id!ID 016885 tiene hijo inv:00018630 no unificado, Buscando hijo->reg Hijo !ID 016887 incorporado a Madre !ID 016885:^z00016887^a00018630^p308^mCompra Quade /2013^dPRES
+madre id!ID 016888 tiene hijo inv:00018634 no unificado, Buscando hijo->reg Hijo !ID 016889 incorporado a Madre !ID 016888:^z00016889^a00018634^vEj.2^p250^mCompra Quade /2013^dPRES
+madre id!ID 016888 tiene hijo inv:00018633 no unificado, Buscando hijo->reg Hijo !ID 016890 incorporado a Madre !ID 016888:^z00016890^a00018633^p250^mCompra Quade /2013^dPRES
+madre id!ID 016895 tiene hijo inv:00018640 no unificado, Buscando hijo->reg Hijo !ID 016896 incorporado a Madre !ID 016895:^z00016896^a00018640^vEj. 2^p220^mCompra Quade /2013^dPRES
+madre id!ID 016895 tiene hijo inv:00018639 no unificado, Buscando hijo->reg Hijo !ID 016897 incorporado a Madre !ID 016895:^z00016897^a00018639^p220^mCompra Quade /2013^dPRES
+madre id!ID 016901 tiene hijo inv:00018646 no unificado, Buscando hijo->reg Hijo !ID 016902 incorporado a Madre !ID 016901:^z00016902^a00018646^vEj. 2^p212^mCompra Quade /2013^dPRES
+madre id!ID 016901 tiene hijo inv:00018645 no unificado, Buscando hijo->reg Hijo !ID 016903 incorporado a Madre !ID 016901:^z00016903^a00018645^p212^mCompra Quade /2013^dPRES
+madre id!ID 016904 tiene hijo inv:00018649 no unificado, Buscando hijo->reg Hijo !ID 016905 incorporado a Madre !ID 016904:^z00016905^a00018649^vEj. 2^p60^mCompra Quade/2013^dPRES
+madre id!ID 016904 tiene hijo inv:00018648 no unificado, Buscando hijo->reg Hijo !ID 016906 incorporado a Madre !ID 016904:^z00016906^a00018648^p60^mCompra Quade/2013^dPRES
+madre id!ID 016907 tiene hijo inv:00018653 no unificado, Buscando hijo->reg Hijo !ID 016908 incorporado a Madre !ID 016907:^z00016908^a00018653^vEj. 2^p60^mCompra Quade/2013^dPRES
+madre id!ID 016907 tiene hijo inv:00018652 no unificado, Buscando hijo->reg Hijo !ID 016909 incorporado a Madre !ID 016907:^z00016909^a00018652^p60^mCompra Quade/2013^dPRES
+
+INICIANDO VINCULACIÓN DE HIJOS A MADRES
+!v001!00011800 -> !ID 016723 
+!v001!00015862 -> !ID 016726 
+!v001!00015862 -> !ID 016727 
+!v001!00013958 -> !ID 016731 
+!v001!00013959 -> !ID 016733 
+!v001!00015116 -> !ID 016758 
+!v001!00004521 -> !ID 016769 
+!v001!0006551 -> !ID 016772 
+!v001!00016142 -> !ID 016774 
+!v001!00016142 -> !ID 016775 
+!v001!00009628 -> !ID 016787 
+!v001!00014312 -> !ID 016824 
+!v001!00014312 -> !ID 016825 
+!v001!00016219 -> !ID 016853 
+!v001!00016290 -> !ID 016879 

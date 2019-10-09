@@ -1,0 +1,89 @@
+#wrap {
+    height: auto!important;
+    height: 100%;
+    min-height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+/*
+    background-color: #05ffb0;
+
+    margin: 0 auto -46px;
+*/
+}
+
+body {
+    font-family: "calibri", Garamond, 'Comic Sans';;
+    font-size: 14px;
+}
+
+#logo {
+    background: transparent url(../images/BPLogo.svg) no-repeat scroll 0;
+}
+
+
+.container-fluid {
+   font-family: "calibri", Garamond, 'Comic Sans';;
+   font-size: 16px;
+   padding-top: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+.row-fluid-banner {
+   background: #555;
+}
+
+.navbar-inverse .navbar-inner {
+    background: #85CA11 none;
+    border-color: #85CA11;
+    box-shadow: none;
+}
+
+.navbar-inverse .nav>li>a {
+    color: #000;
+    font-weight: 500;
+    text-shadow: none;
+}
+
+.navbar-inverse .nav li.dropdown>.dropdown-toggle .caret {
+    border-top-color: #000;
+    border-bottom-color: #000;
+}
+
+.fa.fa-icon-black, .fa.fa-icon-white {
+    color: #000;
+}
+
+.navbar .divider-vertical {
+    border-left-color: #85CA11;
+    border-right-color: #85CA11;
+}
+
+.fonts-loaded body {
+    font-family: "calibri", Garamond, 'Comic Sans';;
+}
+
+#opacheader {
+    margin: 0;
+    padding: 0;
+}
+
+.mastheadsearch {
+    background-image: url(../images/fondo.jpg);
+    margin: 0;
+    padding: 3em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.mastheadsearch label {
+    color: #000;
+    font-size: 115%;
+    font-weight: 700;
+}
+
+#footer {
+ font-size: 10px;
+ text-align: center;
+}

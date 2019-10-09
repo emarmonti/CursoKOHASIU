@@ -1,0 +1,474 @@
+Abriendo archivo base/bibun_madres.txt  -> CORRECTO
+>>Reemplazando caracteres mal migrados de DOS a UTF-8, ESPERE . . . .
+Reemplazo terminado
+comprobando caracteres válidos: abcdefghijklmnñopqrstuvwxyzáéíóúABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚ0123456789àèìòùÀÈÌÒÙâêîôûÂÊÎÔÛäëïöüÄËÏÖÜãÃõÕçÇå^-_¡!¿?., :;/$()[]@&%'´`=+*\"®|½æÞðý#
+
+Migrando BIBUN -> MarcXML:
+Archivo de texto a estructura
+
+*************************************
+  348 leidos, ultimo registro: 16915  
+*************************************
+Borrar registros vacíos inválidos, regla de control: sin inventario
+Ver archivo txt/nomigrados.txt para ver lo registros inválidos
+
+*************************************
+
+validacion de campos BIBUN:
+ ->Registro: 016478 campo 010: longitud inválida (8,9,10,11,12,13) - valor: 8481432563-v.1
+ ->Registro: 016479 campo 010: longitud inválida (8,9,10,11,12,13) - valor: 8481432571-v.2
+ ->Registro: 016483 campo 010: longitud inválida (8,9,10,11,12,13) - valor: 848143258X-v.3
+ ->Registro: 016516 campo 050: contenido no válido: es,en,fr,de,it,la,ma,pl,pt,ru,su,ni,sv,ar,co,da,es,fa,gn,hn,ir,it,ku,no,se,sr,th,tr,zh,zu,el - valor: en/fr/de
+ ->Registro: 016560 campo 077: longitud inválida (5,6,8) - valor: Ing. Hugo Jiménez Santillán
+ ->Registro: 016561 campo 077: longitud inválida (5,6,8) - valor: Ing. Hugo Jiménez Santillán
+ ->Registro: 016562 campo 077: longitud inválida (5,6,8) - valor: Ing. Civil, Ing. Diaz
+ ->Registro: 016567 campo 077: longitud inválida (5,6,8) - valor: Ing. Hugo Jiménez Santillán
+ ->Registro: 016576 campo 077: longitud inválida (5,6,8) - valor: Ing. Oscar Gil
+ ->Registro: 016577 campo 077: longitud inválida (5,6,8) - valor: Ing. Oscar Gil
+ ->Registro: 016578 campo 077: longitud inválida (5,6,8) - valor: Ing. Oscar Gil
+ ->Registro: 016579 campo 077: longitud inválida (5,6,8) - valor: Ing. Oscar Gil
+ ->Registro: 016585 campo 077: longitud inválida (5,6,8) - valor: Ing. Civil, Ing. Bibiana Luccioni
+ ->Registro: 016587 campo 077: longitud inválida (5,6,8) - valor: Ing. Civil, Ing. Bibiana Luccioni
+ ->Registro: 016590 campo 077: longitud inválida (5,6,8) - valor: Ing. Civil, Ing. Bibiana Luccioni
+ ->Registro: 016592 campo 077: longitud inválida (5,6,8) - valor: Ing. Sandra Corral
+ ->Registro: 016593 campo 077: longitud inválida (5,6,8) - valor: Ing. Sandra Corral
+ ->Registro: 016594 campo 077: longitud inválida (5,6,8) - valor: Ing. Sandra Corral
+ ->Registro: 016596 campo 098: longitud inválida (10,11) - valor: SEX000165963
+ ->Registro: 016598 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+ ->Registro: 016599 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+ ->Registro: 016600 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+ ->Registro: 016601 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+ ->Registro: 016602 campo 077: longitud inválida (5,6,8) - valor: Ing. Sandra Corral
+ ->Registro: 016603 campo 077: longitud inválida (5,6,8) - valor: Ing. Sandra Corral
+ ->Registro: 016604 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+ ->Registro: 016605 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+ ->Registro: 016606 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+ ->Registro: 016607 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+ ->Registro: 016608 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+ ->Registro: 016609 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Sebastian Chanta
+ ->Registro: 016610 campo 077: longitud inválida (5,6,8) - valor: Ing. Sandra Corral
+ ->Registro: 016614 campo 007: contenido no válido: TEXTO,PELICULA,VIDEOGRABACION,REVISTA,FOLLETO,TESIS,ANUARIO,CATALOGO,APUNTE,INFORME,SONORO,ENCICLOP,NORMALEG,DIREC,VOCABULA,MANUAL,TABLAS,DICCIONARIO,REGLAMENTO,PUBLICACION,TRABAJO,PUBLICACIONES,ENCICLOPEDIA - valor: TRABAJOS
+ ->Registro: 016614 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+ ->Registro: 016615 campo 007: contenido no válido: TEXTO,PELICULA,VIDEOGRABACION,REVISTA,FOLLETO,TESIS,ANUARIO,CATALOGO,APUNTE,INFORME,SONORO,ENCICLOP,NORMALEG,DIREC,VOCABULA,MANUAL,TABLAS,DICCIONARIO,REGLAMENTO,PUBLICACION,TRABAJO,PUBLICACIONES,ENCICLOPEDIA - valor: TRABAJOS
+ ->Registro: 016615 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+ ->Registro: 016616 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+ ->Registro: 016617 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+ ->Registro: 016618 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+ ->Registro: 016619 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+ ->Registro: 016620 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+ ->Registro: 016621 campo 077: longitud inválida (5,6,8) - valor: Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+ ->Registro: 016630 campo 077: longitud inválida (5,6,8) - valor: Maestría y Doctorado en Ingeniería, Ing. Enrique Galindez
+ ->Registro: 016631 campo 077: longitud inválida (5,6,8) - valor: Maestría y Doctorado en Ingeniería, Ing. Enrique Galindez
+ ->Registro: 016633 campo 077: longitud inválida (5,6,8) - valor: Maestría y Doctorado en Ingeniería, Ing. Enrique Galindez
+ ->Registro: 016634 campo 077: longitud inválida (5,6,8) - valor: Maestría y Doctorado en Ingeniería, Ing. Enrique Galindez
+ ->Registro: 016663 campo 077: longitud inválida (5,6,8) - valor: Instituto de Estructuras, Ing. Galindez
+ ->Registro: 016663 campo 076: contenido no válido: SEX - valor: SEX Inst. de Estructuras Ing. E. Galindez
+ ->Registro: 016663 campo 028: circunflejos no válidos CORREGIR!!! debe contener abdof contiene: ^aDowrick^D. J.
+ ->Registro: 016664 campo 077: longitud inválida (5,6,8) - valor: Instituto de Estructuras, Ing. Galindez
+ ->Registro: 016665 campo 077: longitud inválida (5,6,8) - valor: Instituto de Estructuras, Ing. Galindez
+ ->Registro: 016679 campo 077: longitud inválida (5,6,8) - valor: Instituto de Estructuras, Ing. Galindez
+ ->Registro: 016692 campo 077: longitud inválida (5,6,8) - valor: m
+ ->Registro: 016693 campo 077: longitud inválida (5,6,8) - valor: m
+ ->Registro: 016694 campo 077: longitud inválida (5,6,8) - valor: m
+ ->Registro: 016695 campo 077: longitud inválida (5,6,8) - valor: m
+ ->Registro: 016699 campo 050: contenido no válido: es,en,fr,de,it,la,ma,pl,pt,ru,su,ni,sv,ar,co,da,es,fa,gn,hn,ir,it,ku,no,se,sr,th,tr,zh,zu,el - valor: es-en/en-es
+ ->Registro: 016699 campo 077: longitud inválida (5,6,8) - valor: Dpto. Mecánica (m
+ ->Registro: 016700 campo 077: longitud inválida (5,6,8) - valor: Dpto. Mecánica (00016700
+ ->Registro: 016701 campo 077: longitud inválida (5,6,8) - valor: Dpto. Mecánica (00016701
+ ->Registro: 016710 campo 077: longitud inválida (5,6,8) - valor: Dpro. Mecánica (Int. 7577)
+ ->Registro: 016711 campo 077: longitud inválida (5,6,8) - valor: Dpto. Mecánica (00016711
+ ->Registro: 016801 campo 010: longitud inválida (8,9,10,11,12,13) - valor: 139781587058899
+ ->Registro: 016901 campo 010: longitud inválida (8,9,10,11,12,13) - valor: 139786074813050
+control de nro de acceso e inventarios repetidos
+numero de inventario repetido: mfn:016561 inventario Ing. Hugo Jiménez Santillán
+numero de inventario repetido: mfn:016567 inventario Ing. Hugo Jiménez Santillán
+numero de inventario repetido: mfn:016577 inventario Ing. Oscar Gil
+numero de inventario repetido: mfn:016578 inventario Ing. Oscar Gil
+numero de inventario repetido: mfn:016579 inventario Ing. Oscar Gil
+numero de inventario repetido: mfn:016587 inventario Ing. Civil, Ing. Bibiana Luccioni
+numero de inventario repetido: mfn:016590 inventario Ing. Civil, Ing. Bibiana Luccioni
+numero de inventario repetido: mfn:016593 inventario Ing. Sandra Corral
+numero de inventario repetido: mfn:016594 inventario Ing. Sandra Corral
+numero de inventario repetido: mfn:016599 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+numero de inventario repetido: mfn:016600 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+numero de inventario repetido: mfn:016602 inventario Ing. Sandra Corral
+numero de inventario repetido: mfn:016603 inventario Ing. Sandra Corral
+numero de inventario repetido: mfn:016604 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+numero de inventario repetido: mfn:016605 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+numero de inventario repetido: mfn:016606 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+numero de inventario repetido: mfn:016607 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+numero de inventario repetido: mfn:016608 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta,
+numero de inventario repetido: mfn:016610 inventario Ing. Sandra Corral
+numero de inventario repetido: mfn:016614 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+numero de inventario repetido: mfn:016615 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+numero de inventario repetido: mfn:016616 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+numero de inventario repetido: mfn:016617 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+numero de inventario repetido: mfn:016618 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+numero de inventario repetido: mfn:016619 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+numero de inventario repetido: mfn:016620 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+numero de inventario repetido: mfn:016621 inventario Laboratorio de Vias de Comunicación, Ing. Sebastian Chanta
+numero de inventario repetido: mfn:016631 inventario Maestría y Doctorado en Ingeniería, Ing. Enrique Galindez
+numero de inventario repetido: mfn:016633 inventario Maestría y Doctorado en Ingeniería, Ing. Enrique Galindez
+numero de inventario repetido: mfn:016634 inventario Maestría y Doctorado en Ingeniería, Ing. Enrique Galindez
+numero de inventario repetido: mfn:016664 inventario Instituto de Estructuras, Ing. Galindez
+numero de inventario repetido: mfn:016665 inventario Instituto de Estructuras, Ing. Galindez
+numero de inventario repetido: mfn:016679 inventario Instituto de Estructuras, Ing. Galindez
+numero de inventario repetido: mfn:016693 inventario m
+numero de inventario repetido: mfn:016694 inventario m
+numero de inventario repetido: mfn:016695 inventario m
+
+*************************************
+FIN de validacion de campos LEER LOG
+
+*************************************
+registros procesados: 348
+>>generando marcXML
+
+generando registro 016470
+generando registro 016471
+generando registro 016472
+generando registro 016473
+generando registro 016475
+generando registro 016476
+generando registro 016477
+generando registro 016478
+generando registro 016479
+generando registro 016480
+generando registro 016481
+generando registro 016482
+generando registro 016483
+generando registro 016485
+generando registro 016488
+generando registro 016489
+generando registro 016490
+generando registro 016491
+generando registro 016492
+generando registro 016493
+generando registro 016494
+generando registro 016495
+generando registro 016496
+generando registro 016497
+generando registro 016498
+generando registro 016499
+generando registro 016500
+generando registro 016501
+generando registro 016502
+generando registro 016504
+generando registro 016505
+generando registro 016507
+generando registro 016508
+generando registro 016509
+generando registro 016510
+generando registro 016511
+generando registro 016512
+generando registro 016513
+generando registro 016514
+generando registro 016516
+generando registro 016517
+generando registro 016518
+generando registro 016519
+generando registro 016520
+generando registro 016521
+generando registro 016522
+generando registro 016523
+generando registro 016524
+generando registro 016525
+generando registro 016526
+generando registro 016527
+generando registro 016528
+generando registro 016529
+generando registro 016531
+generando registro 016532
+generando registro 016533
+generando registro 016534
+generando registro 016535
+generando registro 016537
+generando registro 016539
+generando registro 016540
+generando registro 016541
+generando registro 016542
+generando registro 016544
+generando registro 016545
+generando registro 016546
+generando registro 016547
+generando registro 016548
+generando registro 016549
+generando registro 016550
+generando registro 016551
+generando registro 016552
+generando registro 016553
+generando registro 016554
+generando registro 016555
+generando registro 016556
+generando registro 016557
+generando registro 016558
+generando registro 016559
+generando registro 016560
+generando registro 016561
+generando registro 016562
+generando registro 016563
+generando registro 016564
+generando registro 016565
+generando registro 016566
+generando registro 016567
+generando registro 016568
+generando registro 016569
+generando registro 016570
+generando registro 016571
+generando registro 016572
+generando registro 016573
+generando registro 016574
+generando registro 016575
+generando registro 016576
+generando registro 016577
+generando registro 016578
+generando registro 016579
+generando registro 016580
+generando registro 016581
+generando registro 016582
+generando registro 016583
+generando registro 016584
+generando registro 016585
+generando registro 016586
+generando registro 016587
+generando registro 016588
+generando registro 016590
+generando registro 016591
+generando registro 016592
+generando registro 016593
+generando registro 016594
+generando registro 016595
+generando registro 016596
+generando registro 016597
+generando registro 016598
+generando registro 016599
+generando registro 016600
+generando registro 016601
+generando registro 016602
+generando registro 016603
+generando registro 016604
+generando registro 016605
+generando registro 016606
+generando registro 016607
+generando registro 016608
+generando registro 016609
+generando registro 016610
+generando registro 016611
+generando registro 016612
+generando registro 016613
+generando registro 016614
+generando registro 016615
+generando registro 016616
+generando registro 016617
+generando registro 016618
+generando registro 016619
+generando registro 016620
+generando registro 016621
+generando registro 016622
+generando registro 016623
+generando registro 016624
+generando registro 016625
+generando registro 016626
+generando registro 016627
+generando registro 016628
+generando registro 016629
+generando registro 016630
+generando registro 016631
+generando registro 016632
+generando registro 016633
+generando registro 016634
+generando registro 016635
+generando registro 016636
+generando registro 016637
+generando registro 016638
+generando registro 016639
+generando registro 016640
+generando registro 016642
+generando registro 016643
+generando registro 016644
+generando registro 016647
+generando registro 016648
+generando registro 016649
+generando registro 016650
+generando registro 016651
+generando registro 016652
+generando registro 016653
+generando registro 016654
+generando registro 016655
+generando registro 016656
+generando registro 016658
+generando registro 016659
+generando registro 016660
+generando registro 016663
+generando registro 016664
+generando registro 016665
+generando registro 016666
+generando registro 016668
+generando registro 016669
+generando registro 016670
+generando registro 016671
+generando registro 016672
+generando registro 016673
+generando registro 016674
+generando registro 016675
+generando registro 016676
+generando registro 016677
+generando registro 016678
+generando registro 016679
+generando registro 016680
+generando registro 016681
+generando registro 016683
+generando registro 016684
+generando registro 016685
+generando registro 016686
+generando registro 016687
+generando registro 016688
+generando registro 016689
+generando registro 016690
+generando registro 016691
+generando registro 016692
+generando registro 016693
+generando registro 016694
+generando registro 016695
+generando registro 016696
+generando registro 016697
+generando registro 016698
+generando registro 016699
+generando registro 016700
+generando registro 016701
+generando registro 016702
+generando registro 016703
+generando registro 016704
+generando registro 016705
+generando registro 016706
+generando registro 016707
+generando registro 016708
+generando registro 016709
+generando registro 016710
+generando registro 016711
+generando registro 016712
+generando registro 016713
+generando registro 016715
+generando registro 016716
+generando registro 016719
+generando registro 016721
+generando registro 016722
+generando registro 016724
+generando registro 016725
+generando registro 016728
+generando registro 016729
+generando registro 016730
+generando registro 016732
+generando registro 016734
+generando registro 016735
+generando registro 016736
+generando registro 016737
+generando registro 016738
+generando registro 016740
+generando registro 016744
+generando registro 016745
+generando registro 016746
+generando registro 016747
+generando registro 016748
+generando registro 016749
+generando registro 016750
+generando registro 016751
+generando registro 016752
+generando registro 016753
+generando registro 016755
+generando registro 016756
+generando registro 016757
+generando registro 016759
+generando registro 016761
+generando registro 016762
+generando registro 016763
+generando registro 016764
+generando registro 016765
+generando registro 016766
+generando registro 016767
+generando registro 016768
+generando registro 016770
+generando registro 016771
+generando registro 016773
+generando registro 016776
+generando registro 016777
+generando registro 016778
+generando registro 016779
+generando registro 016780
+generando registro 016781
+generando registro 016782
+generando registro 016783
+generando registro 016784
+generando registro 016785
+generando registro 016786
+generando registro 016788
+generando registro 016789
+generando registro 016790
+generando registro 016791
+generando registro 016792
+generando registro 016793
+generando registro 016794
+generando registro 016796
+generando registro 016797
+generando registro 016798
+generando registro 016799
+generando registro 016800
+generando registro 016801
+generando registro 016803
+generando registro 016805
+generando registro 016806
+generando registro 016807
+generando registro 016808
+generando registro 016809
+generando registro 016810
+generando registro 016811
+generando registro 016812
+generando registro 016813
+generando registro 016814
+generando registro 016815
+generando registro 016816
+generando registro 016817
+generando registro 016818
+generando registro 016819
+generando registro 016820
+generando registro 016821
+generando registro 016822
+generando registro 016823
+generando registro 016826
+generando registro 016827
+generando registro 016828
+generando registro 016829
+generando registro 016830
+generando registro 016831
+generando registro 016832
+generando registro 016837
+generando registro 016840
+generando registro 016843
+generando registro 016844
+generando registro 016845
+generando registro 016846
+generando registro 016849
+generando registro 016852
+generando registro 016854
+generando registro 016856
+generando registro 016860
+generando registro 016864
+generando registro 016865
+generando registro 016868
+generando registro 016870
+generando registro 016873
+generando registro 016878
+generando registro 016885
+generando registro 016888
+generando registro 016891
+generando registro 016892
+generando registro 016895
+generando registro 016900
+generando registro 016901
+generando registro 016904
+generando registro 016907
+generando registro 016911
+generando registro 016912
+generando registro 016913
+generando registro 016914
+generando registro 016915
