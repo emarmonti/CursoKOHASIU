@@ -1,0 +1,13 @@
+	s1:=(v18[1]),e1:=1,e3:=1, e2:=SIZE(s1),
+	if v18[1].1='<' then 
+		WHILE e1<=e2 AND ss(e1,1,s1) <>'>'(
+		e1:=e1+1
+		)/
+		e4:=e1-1,/
+		s3:=(S(mhl,v18[1])),/
+		if e1<>e2 then,
+			d400,s3,
+		fi,/
+	else,
+		d400,v18[1],
+	fi,

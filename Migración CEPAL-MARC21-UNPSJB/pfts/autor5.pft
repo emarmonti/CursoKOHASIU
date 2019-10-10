@@ -1,0 +1,57 @@
+if v5[1]='m' then,
+	if p(v52) then,
+		s0:=(REF->'p:\libri\libri'(mfn,@titul5)),
+		e3:=3,
+		if nocc(v52)<=e3 then,
+			e1:=1,/
+			e2:=0,/
+			e3:=0,/
+			WHILE e1<=nocc(v52)(
+				s3:=(v52[e1]),e4:=1,e5:=1, e6:=SIZE(s3),
+				e5:=1,e6:=SIZE(s3),
+				WHILE e5<=e6 AND ss(e5,1,s3) <> '.'(
+					e5:=e5+1
+				)
+				if e5<e6 then,
+					s3:=(SS(1,e5,s3),'$b',SS(e5+2,e6,s3)),
+				fi,		
+				if e2=0 then,
+						if a(v24) then
+							'=111  2\\$a',s3, if p(v54) then ' $c',v54,fi,if p(v56) then ' $d',v56, fi,/
+						else
+							'=711  2\\$a',s3/
+						fi/
+						e2:=e1,/
+					else,
+						'=711  2\\$a',s3/
+						e3:=e3+1,
+				fi,/
+				e1:=e1+1,/
+			),/
+			if a(v24) then,
+				if e2=0 then,
+					'',s0,/
+				else
+					'',s0,' / $c',if p(v52[e2]) then SS(1,SIZE(v52[e2]),v52[e2]) fi, if e3>1 then ' ... [et al.]' fi,,/
+				fi/
+			fi/
+		else,
+			e1:=1,/
+			WHILE e1<=nocc(v52)(
+				s3:=(v52[e1]),e4:=1,e5:=1, e6:=SIZE(s3),
+				e5:=1,e6:=SIZE(s3),
+				WHILE e5<=e6 AND ss(e5,1,s3) <> '.'(
+					e5:=e5+1
+				)
+				if e5<e6 then,
+					s3:=(SS(1,e5,s3),'$b',SS(e5+2,e6,s3)),
+					'=711  2\\$a',s3,
+				else,
+					'=711  2\\$a',v52[e1],
+				fi,/
+				e1:=e1+1,
+			)
+			'',s0,/
+		fi/
+	fi/
+fi

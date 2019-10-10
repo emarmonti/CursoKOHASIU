@@ -1,0 +1,165 @@
+'=LDR  00000ca',v5[1],'  22000002u 4500'/
+'=001  ',v1,'-',mfn,/
+'=003  AR-CrUNPB'/
+if a(v63) then,
+	'=007  ta',/
+else,
+	if v63[1]='CD-ROM' or v63[1]='DVD' then,
+		'=007  co cg mmmmamaa',/
+	else,
+		'=007  ta',/
+	fi,
+fi,
+if v5[1]='m' then
+   if p(v43) then,
+		if v43.1='[' then
+			'=008  170901','q',v43*1.4,'\\\\\\\\',if a(v40) then '\\\\\\' else v40 fi,'\\\\\\\\\\','r','\\\\\\\\\\000\\0\\',if a(v64) then ,'spa', else ,v64[1],fi,'\\d'/
+		else,
+		    e9:=SIZE(v43), 
+			if e9=8 then,
+				'=008  170901','m',v43.8,if a(v40) then '\\\\\\' else v40 fi,'\\\\\\\\\\','r','\\\\\\\\\\000\\0\\',if a(v64) then ,'spa', else ,v64[1],fi,'\\d'/
+			else,
+				'=008  170901','s',v43.4,'\\\\\\\\',if a(v40) then '\\\\\\' else v40 fi,'\\\\\\\\\\','r','\\\\\\\\\\000\\0\\',if a(v64) then ,'spa', else ,v64[1],fi,'\\d'/
+			fi,
+		fi,
+	fi,
+fi,
+if v5[1]='a' then,
+s5:=(mhl,ref(l("SIG:"v3),v40),mpl),
+'=008  170901','b\\\\\\\\\\\\\\\\',if p(v40) then v40 else if s5='' then '\\\\\\', else s5 fi,, fi,'\\\\\\\\\\','r','\\\\\\\\\\000\\0\\',if a(v64) then ,'spa', else ,v64[1],fi,'\\d'/
+fi,/
+	(|=020  \\\\$a|,v47/)/
+     '=040  \\\\$aAR-CrUNPB',/
+if v5[1]='m' then
+	 '=082  0\\$a',v3^*,'$220'/
+fi,/
+if nocc(v64)>1 then
+  '=041  0\\'|$a|,v64/	 
+fi/
+if a(v18) * a(v17) then,
+	REF->'p:\Libri\Libri'(mfn,@autor5)
+else,
+REF->'p:\Libri\Libri'(mfn,@autor)
+REF->'p:\Libri\Libri'(mfn,@autor1)
+fi,/
+	 |=250  \\\\$a|,v41/
+if p(v3) then 
+	 s1:=(v3*3),e1:=1,e4:=1,e3:=0,e2:=SIZE(s1),/
+WHILE e1<=e2 (
+if ss(e1,1,s1)='/' then
+'=255  \\\\$a',ss(e4,e1-e4,s1)/
+e3:=e3+1,
+e4:=e1+1,
+e2:=e1,
+fi,
+e1:=e1+1,
+)
+fi,
+if v5[1]='m' then
+	 |=260  \\\\$a|,v39,' :','$b',v38+| ; |,', $c',v43/
+	 '=300  \\\\$a',if v20='DVD' then, '1 DVD' else, if v20='CD-ROM' then, '1 CD' else, v20 fi,fi,if p(v63[2]) then '$e',if v63[2]='CD-ROM' then, '1 CD' else, if v63[2]='DVD' then, '1 DVD' else, v63[2] fi,fi,fi,/
+fi,/
+if v5[1]='a' then
+	 '=300  \\\\$a',if v14='DVD' then, '1 DVD' else, if v14='CD-ROM' then, '1 CD' else, v14 fi,fi,if p(v63[2]) then '$e',if v63[2]='CD-ROM' then, '1 CD' else, if v63[2]='DVD' then, '1 DVD' else, v63[2] fi,fi,fi,/
+fi,/
+if p(v30) then
+	'=490  0\\$a',v30, if p(v31) then ' ; $vv.',v31, else if p(v32) then ' ; $v',v32 fi,fi/
+fi,
+if p(v68) then,
+	s1:=(v68),e1:=1,e4:=1,e3:=0,e2:=SIZE(s1),/
+	WHILE e1<=e2 (
+		if ss(e1,1,s1)='%' then
+			'=500  \\\\$a',ss(e4,e1-e4,s1)/
+			e3:=e3+1,
+			e4:=e1+1,
+		fi,
+        e1:=e1+1,
+	)
+	if e3<>0 then
+		'=500  \\\\$a',ss(e4,e1-e4,s1)/
+	else
+	    (|=500  \\\\$a|,v68/)/
+    fi,
+fi,
+if p(v72) then 
+	'=520  \\\\$a',v72/
+fi,
+if p(v505) then
+	'=505  0\\$a',v505/
+fi,
+'=590  \\\\$aRegistros migrados a formato MARC',/
+     |=591  \\\\$a|,v59/
+    if p(v74) then,
+		e1:=1,
+	    WHILE e1<=nocc(v76) (
+			if e1=1 then,
+				'=650  \\7$a',v76[e1],'$y',v74, if p(v75) then '-',v75, fi,/
+			else,
+				'=650  \\7$a',v76[e1],/
+			fi,
+			e1:=e1+1,
+		)
+	else,
+		(|=650  \\7$a|,v76|$2Unescot|/)/
+	fi,/
+    (|=650  \\4$a|,v78/)/
+if p(v740) then,
+		e5:=1,/
+		WHILE e5<=nocc(v740) (
+			s1:=(v740[e5]),e1:=1,e3:=1, e2:=SIZE(s1),/
+			if v740[e5].1='<' then 
+				WHILE e1<=e2 AND ss(e1,1,s1) <>'>'(
+				e1:=e1+1
+				)/
+				e4:=e1-1,/
+				s3:=(S(mhl,v740[e5]^*)),/
+				if e1<>e2 then,
+					'=740  ',F(e4,1,0),'2','$a',s3,if p(v740[e5]^n) then '$n',v740[e5]^n fi,
+				fi,/
+				s3:=(S(mpl,v740[1]^*)),/
+			else
+				|=740  02$a|v740[e5]^*,if p(v740[e5]^n) then '$n',v740[e5]^n fi,
+			fi/
+			e5:=e5+1
+		)
+fi,
+if v5[1]='a' then
+    if p(v2) then 
+		'=773  0\\$a', mhl,ref(l("SIG:"v3),v16[1]^*,', ',v16[1]^b),'$d',ref(l("SIG:"v3),v39,': ',v38', ',v43),'$o',v2[1],'$t',ref(l("SIG:"v3),@TMARC),'$w',ref(l("SIG:"v3),v1,'-',mfn),mpl,/
+	else
+		'=773  0\\$a', mhl,ref(l("SIG:"v3),v16[1]^*,', ',v16[1]^b),'$d',ref(l("SIG:"v3),v39,': ',v38', ',v43),'$o',ref(l("SIG:"v3),v2[1]),'$t',ref(l("SIG:"v3),@TMARC),'$w',ref(l("SIG:"v3),v1,'-',mfn),mpl,/
+    fi,/
+fi,/
+if p(v53) then 
+	(|=711  2\\$a|,v53/)/
+fi,/
+if p(v51) then
+	'=502  \\\\$b',v51,' ; $c',v50^*,'. ',v50^f,' ; $d',v43 
+fi,/
+if v5[1]='m' then
+    s2:=('$yBK'),	
+	if p(v50) then 
+		'=942  \\\\$cTESIS'/
+		s2:=('$yTESIS'),	
+	else,
+		'=942  \\\\$cBK'/
+	fi,
+    e2:=1,
+    WHILE e2<=nocc(v78)(
+		if v78[e2]='LITERATURA DE ENTRETENIMIENTO' then
+		   s2:=('$yREC')/
+		fi/
+		e2:=e2+1,
+	)	
+	e1:=1,
+	WHILE e1<=nocc(v2)(
+		'=952  \\\\$pC',v2[e1]^*,'$a',if p(v2[e1]^p) then v2[e1]^p else v7 fi,'$b',v7,'$o', if v2[e1]^p='INHIST' then 'Inst. Historia/' else if v2[e1]^p='ILLPAT' then, 'Inst. Letras/' fi, fi,REF->'p:\Libri\Libri'(mfn,@signa),s2,if p(v99) then '$x',v99^*,', ',v99^b, fi/
+		e1:=e1+1,
+	)/
+else 
+	'=942  \\\\$cART'/
+fi,/
+if p(v98) then 
+	 |=910  \\\\$a|,v98,|$b|,v198/
+fi,/
+   #/

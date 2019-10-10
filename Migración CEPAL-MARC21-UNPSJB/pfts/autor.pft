@@ -1,0 +1,143 @@
+if v5[1]='m' then,
+	e8:=0,/
+	if a(v16) and a(v17) and a(v24) then,
+		REF->'p:\libri\libri'(mfn,@titul0),/,
+	fi/
+	if p(v24) then
+		 |=111  2\\$a|,v24/
+		 REF->'p:\libri\libri'(mfn,@titul1),/,
+	fi/	 
+	if p(v16) then,
+		s0:=(REF->'p:\libri\libri'(mfn,@titul0)),
+		s1:=(REF->'p:\libri\libri'(mfn,@titul1)),
+		e1:=1,/
+		e4:=0,/
+		WHILE e1<=nocc(v16)(
+			if a(v16[e1]^r) then,	
+				e4:=e4+1,
+			fi,
+			e1:=e1+1,/
+		)
+		if e4 <= 3 then,
+			e1:=1,/
+			e2:=0,/
+			e3:=0,/
+			WHILE e1<=nocc(v16)(
+				if p(v16[e1]^r) then,
+					|=700  1\\$a|,v16[e1]^*,|, |,v16[e1]^b,if p(v16[e1]^d) then ',$d',v16[e1]^d, fi,'$e',v16[e1]^r, if p(v16[e1]^c) then '$z(Chubut)'  fi,/
+				else,
+					if e2=0 then,
+						|=100  1\\$a|,v16[e1]^*,|, |,v16[e1]^b,if p(v16[e1]^d) then ',$d',v16[e1]^d, fi,if p(v16[e1]^c) then '$z(Chubut)' fi/
+						e2:=e1,/
+					else,
+						|=700  1\\$a|,v16[e1]^*,|, |,v16[e1]^b,if p(v16[e1]^d) then ',$d',v16[e1]^d, fi,if p(v16[e1]^c) then '$z(Chubut)' fi/
+						e3:=e3+1,
+					fi,/
+				fi,/
+				e1:=e1+1,/
+			),/
+			if a(v24) then,
+				if a(v17) then,
+					if e2=0 then
+						'',s0,/
+					else
+						'',s1,' / $c',if p(v16[e2]) then v16[e2]^b,' ',v16[e2]^* fi, if e3>2 then ' ... [et al.]' fi,,/
+					fi/
+				fi/
+			fi/
+		else,
+			e1:=1,/
+			e2:=0,/
+			e3:=0,/
+			WHILE e1<=nocc(v16)(
+				|=700  1\\$a|,v16[e1]^*,|, |,v16[e1]^b,if p(v16[e1]^d) then ',$d',v16[e1]^d, fi,if p(v16[e1]^c) then '$z(Chubut)' fi/
+				e1:=e1+1,
+				if p(v16^r) then,
+					e2:=e2+1,
+				else,
+					e3:=e3+1,
+				fi/
+			)
+			if a(v24) then,
+				if e2=e1 then,
+					'',s0,/
+				else
+					'',s0,' / $c',if p(v16[1]) then v16[1]^b,' ',v16[1]^* fi, if e3>=3 then ' ... [et al.]' fi,,/
+					e8:=1,/
+				fi/
+			fi/
+		fi/
+	fi/
+	if p(v17) then,
+		s0:=(REF->'p:\libri\libri'(mfn,@titul0)),
+		s1:=(REF->'p:\libri\libri'(mfn,@titul1)),
+		e3:=3,
+		if nocc(v17)<=e3 then,
+			e1:=1,/
+			e2:=0,/
+			e3:=0,/
+			WHILE e1<=nocc(v17)(
+				s3:=(v17[e1]),e4:=1,e5:=1, e6:=SIZE(s3),
+				e5:=1,e6:=SIZE(s3),
+				WHILE e5<=e6 AND ss(e5,1,s3) <> '.'(
+					e5:=e5+1
+				)
+				if e5<e6 then,
+					s3:=(SS(1,e5,s3),'$b',SS(e5+2,e6,s3)),
+				fi,		
+				if e2=0 then,
+						if a(v24) then
+						    if p(v16) then
+								'=710  2\\$a',s3/
+							else
+								'=110  2\\$a',s3/
+							fi,
+						else
+							'=710  2\\$a',s3/
+						fi/
+						e2:=e1,/
+					else,
+						'=710  2\\$a',s3/
+						e3:=e3+1,
+				fi,/
+				e1:=e1+1,/
+			),/
+			if a(v24) then,
+				if e2=0 then,
+					'',s0,/
+				else,
+					if a(v16) then
+						'',s1,' / $c',if p(v17[e2]) then SS(1,SIZE(v17[e2]),v17[e2]) fi, if e3>1 then ' ... [et al.]' fi,,/
+					fi/
+				fi/
+			fi/
+		else,
+			e1:=1,/
+			WHILE e1<=nocc(v17)(
+				s3:=(v17[e1]),e4:=1,e5:=1, e6:=SIZE(s3),
+				e5:=1,e6:=SIZE(s3),
+				WHILE e5<=e6 AND ss(e5,1,s3) <> '.'(
+					e5:=e5+1
+				)
+				if e5<e6 then,
+					s3:=(SS(1,e5,s3),'$b',SS(e5+2,e6,s3)),
+					'=710  2\\$a',s3,
+				else,
+					'=710  2\\$a',v17[e1],
+				fi,/
+				e1:=e1+1,
+			)
+			'',s0,/
+		fi/
+	fi/
+	if p(v16) * p(v17) then,
+		e7:=1,/
+		if nocc(v16)=e7 then
+			'',s0,' / $c',if p(v16[1]) then v16[1]^b,' ',v16[1]^* fi, if e3>=3 then ' ... [et al.]' fi,,/
+		else,
+			if e8=0 then, 
+				'',s0,' / $c',if p(v16[1]) then v16[1]^b,' ',v16[1]^* fi, if e3>=3 then ' ... [et al.]' fi,,/
+			fi/
+		fi/
+	fi/
+fi

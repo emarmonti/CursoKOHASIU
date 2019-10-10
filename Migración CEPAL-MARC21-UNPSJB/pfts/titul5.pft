@@ -1,0 +1,135 @@
+if v5[1]='m' then,
+s1:=(v53[1]),e1:=1,e3:=1, e2:=SIZE(s1),e9:=1
+WHILE e9<=nocc(v53) (
+	if e9=1 then,
+		if v53[1].1='<' then 
+			WHILE e1<=e2 AND ss(e1,1,s1) <>'>'(
+				e1:=e1+1
+			)/
+			e4:=e1-1,/
+			s3:=(S(mhl,v53[1])),
+			e5:=1,e6:=SIZE(s3),
+			WHILE e5<=e6 AND ss(e5,1,s3) <> ':'(
+				e5:=e5+1
+			)
+			if e5<e6 then,
+				s3:=(SS(1,e5,s3),'$b',SS(e5+2,e6,s3)),
+			fi,
+			if e1<>e2 then,
+				if a(v19) then,
+					s4:=(S(mhl,'=245  1',F(e4,1,0),'$a',s3))
+				else,
+					if e5<e6 then,			
+						s4:=(S(mhl,'=245  1',F(e4,1,0),'$a',s3,' = ',v19))
+					else,
+						s4:=(S(mhl,'=245  1',F(e4,1,0),'$a',s3,'$b = ',v19))
+					fi,
+				fi,		
+			fi,
+		else,
+			s3:=(S(mhl,v53[1])),
+			e5:=1,e6:=SIZE(s3),/
+			WHILE e5<=e6 AND ss(e5,1,s3) <> ':'(
+				e5:=e5+1
+			)
+			if e5<e6 then,
+				s3:=(SS(1,e5,s3),'$b',SS(e5+2,e6,s3)),
+			fi,/
+			if a(v19) then,	
+				s4:=(S(mhl,'=245  10$a',s3))
+			else,
+				if e5<e6 then,
+					s4:=(S(mhl,'=245  10$a',s3,' = ',v19))
+				else,
+					s4:=(S(mhl,'=245  10$a',s3,'$b = ',v19))
+				fi,				
+			fi,		
+		fi,
+	else,
+		s5:=(v53[e9]),e7:=1,e8:=SIZE(s5),/
+		if v53[e9].1='<' then 
+			WHILE e7<=e8 AND ss(e7,1,s5) <>'>'(
+			e7:=e7+1
+			)/
+			e4:=e7-1,/
+			s6:=(S(mhl,v53[e9])),/
+			if e7<>e8 then,
+				'=740  ',F(e4,1,0),'2','$a',s6
+				s4:=(S(mhl,s4,' ; ',s6))
+			fi,/
+		else
+			|=740  02$a|v53[e9]
+			s4:=(S(mhl,s4,' ; ',v53[e9]))
+		fi/			
+	fi,
+	e9:=e9+1,	
+)
+'',s4,
+else,
+s1:=(v12[1]),e1:=1,e3:=1, e2:=SIZE(s1),e9:=1
+WHILE e9<=nocc(v12) (
+	if e9=1 then,
+		if v12[1].1='<' then 
+			WHILE e1<=e2 AND ss(e1,1,s1) <>'>'(
+				e1:=e1+1
+			)/
+			e4:=e1-1,/
+			s3:=(S(mhl,v12[1])),
+			e5:=1,e6:=SIZE(s3),
+			WHILE e5<=e6 AND ss(e5,1,s3) <> ':'(
+				e5:=e5+1
+			)
+			if e5<e6 then,
+				s3:=(SS(1,e5,s3),'$b',SS(e5+2,e6,s3)),
+			fi,
+			if e1<>e2 then,
+				if a(v19) then,
+					s4:=(S(mhl,'=245  1',F(e4,1,0),'$a',s3))
+				else,
+					if e5<e6 then,			
+						s4:=(S(mhl,'=245  1',F(e4,1,0),'$a',s3,' = ',v19))
+					else,
+						s4:=(S(mhl,'=245  1',F(e4,1,0),'$a',s3,'$b = ',v19))
+					fi,
+				fi,		
+			fi,
+		else,
+			s3:=(S(mhl,v12[1])),
+			e5:=1,e6:=SIZE(s3),/
+			WHILE e5<=e6 AND ss(e5,1,s3) <> ':'(
+				e5:=e5+1
+			)
+			if e5<e6 then,
+				s3:=(SS(1,e5,s3),'$b',SS(e5+2,e6,s3)),
+			fi,/
+			if a(v19) then,	
+				s4:=(S(mhl,'=245  10$a',s3))
+			else,
+				if e5<e6 then,
+					s4:=(S(mhl,'=245  10$a',s3,' = ',v19))
+				else,
+					s4:=(S(mhl,'=245  10$a',s3,'$b = ',v19))
+				fi,				
+			fi,		
+		fi,
+	else,
+		s5:=(v12[e9]),e7:=1,e8:=SIZE(s5),/
+		if v12[e9].1='<' then 
+			WHILE e7<=e8 AND ss(e7,1,s5) <>'>'(
+			e7:=e7+1
+			)/
+			e4:=e7-1,/
+			s6:=(S(mhl,v12[e9])),/
+			if e7<>e8 then,
+				'=740  ',F(e4,1,0),'2','$a',s6
+				s4:=(S(mhl,s4,' ; ',s6))
+			fi,/
+		else
+			|=740  02$a|v12[e9]
+			s4:=(S(mhl,s4,' ; ',v12[e9]))
+		fi/			
+	fi,
+	e9:=e9+1,	
+)
+'',s4,
+fi,
