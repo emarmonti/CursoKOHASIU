@@ -1,0 +1,74 @@
+W:LIBRI VASO  NUE   REDU  LOLI  
+F:LIBRI BIBLIOLIST  INVE  ANDREAMONICALIST1 CONTROLOLA  EDUCFILIBRIN
+S:LIBRI LIST  TRAFO SIGLA 
+***
+01-NOMBRE ARCHIVO                                 1 10 0 0
+02-NUMERO ACCESO                                  2 8 0 1
+03-UBICACION FISICA                               3 50 0 0
+04-TIPO DOCUMENTO                                 4 2 0 0
+05-NIVEL BIBLIOGRAFICO                            5 1 0 0
+06-NIVEL REGISTRO                                 6 3 0 0
+07-BIBLIOTECA DEPOSITARIA                         7 10 0 0
+08-NUM CONTROL CENTRO PARTIC                      8 15 0 0
+10-AUTOR PERSONAL [A]         br                  10 50 0 1
+11-AUTOR INSTITUCIONAL [A]                        11 200 0 1
+12-TITULO [A]                                     12 250 0 1
+14-PAGINAS [A]                                    14 30 0 0
+16-AUTOR PERSONAL [M]         br                  16 50 0 1
+17-AUTOR INSTITUCIONAL [M]                        17 200 0 1
+18-TITULO [M]                                     18 250 0 1
+19-TITULO TRADUCIDO [A]                           19 250 0 1
+20-PAGINAS [M]                                    20 30 0 0
+21-NUMERO DE VOLUMEN [M]                          21 25 0 0
+23-AUTOR PERSONAL [C]         br                  23 50 0 1
+24-AUTOR INSTITUCIONAL [C]                        24 200 0 1
+25-TITULO [C]                                     25 250 0 1
+27-TOTAL DE VOLUMENES [C]                         27 20 0 0
+29-EDITOR INTITUCIONAL [S]                        29 200 0 1
+30-TITULO [S]                                     30 150 0 1
+31-VOLUMEN [S]                                    31 25 0 0
+32-NUMERO [S]                                     32 25 0 0
+33-PERIODICIDAD [S]                               33 50 0 0
+34-EXISTENCIAS [S]                                34 150 0 0
+35-ISSN                                           35 20 0 0
+38-EDITORIAL                                      38 200 0 1
+39-CIUDAD DE EDITORIAL                            39 30 0 0
+40-PAIS DE EDITORIAL                              40 2 0 0
+41-EDICION                                        41 25 0 0
+42-INFORMACION DESCRIPTIVA                        42 200 0 0
+43-FECHA PUBLICACION                              43 50 0 0
+44-FECHA NORMALIZADA ISO      99999999            44 8 3 0
+47-ISBN                                           47 20 0 1
+50-INSTITUCION TESIS                              50 200 0 1
+51-GRADO ACADEMICO TESIS                          51 30 0 0
+52-INSTITUCION PATROC.REUNION                     52 200 0 1
+53-NOMBRE DE LA REUNION                           53 400 0 1
+54-CIUDAD DE REUNION                              54 30 0 0
+55-PAIS DE REUNION                                55 2 0 0
+56-FECHA DE REUNION                               56 50 0 0
+57-FECHA NORMALIZADA ISO      99999999            57 8 3 0
+58-INST.PATROC.PROYECTO                           58 200 0 1
+59-NOMBRE DE PROYECTO Y NUMERO                    59 250 0 1
+63-IMPRESION                  iet                 63 25 0 0
+64-IDIOMA DEL TEXTO                               64 2 0 1
+68-NOTAS                                          68 500 0 1
+72-RESUMEN                                        72 1650 0 1
+74-ALCANCE TEMPORAL * DESDE                       74 4 0 0
+75-ALCANCE TEMPORAL * HASTA                       75 4 0 0
+76-DESCRIPT CONTENIDO TEMATICO                    76 400 0 1
+77-DESCRIPT.DATOS ESTADISTICOS                    77 400 0 1
+78-PALABRAS CLAVES                                78 400 0 1
+80-CATEGORIA PRIMARIA                             80 200 0 1
+82-CATEGORIA GEOGRAFICA                           82 150 0 1
+85-DIVISIONES ADMINISTRATIVAS                     85 200 0 1
+98-ALTA DEL REGISTRO                              98 10 0 0
+86-SIGLAS                     snl                 86 200 0 1
+99-MODO OBTENCION             b                   99 50 0 1
+103-FECHA MODIFICACION                            103 100 0 1
+104-FECHA Y QUIEN REVISO                          104 100 0 1
+105-FACULTAD                                      105 100 0 0
+106-CARRERA                                       106 100 0 0
+333-DIRECCION IMAGEN                              333 100 0 1
+340-PAIS DESARROLLADO                             340 100 0 0
+364-IDIOMA DESARROLLADO                           364 100 0 1
+366-VOLUMENES EXISTENTES                          366 10 0 0
